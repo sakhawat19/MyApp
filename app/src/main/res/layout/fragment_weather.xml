@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_temp1"
+        android:text=""
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="30dp"
+       android:weightSum="2"
+       >
+       <TextView
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="City: "
+           android:textStyle="bold"
+           android:textSize="22dp"
+           android:textColor="@color/colorWhite"
+           />
+       <TextView
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:id="@+id/tv_city"
+           android:paddingLeft="15dp"
+           android:text=""
+           android:textStyle="bold"
+           android:textSize="22dp"
+           android:textColor="@color/colorWhite"
+           />
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Weather: "
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/colorWhite"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_desc"
+            android:text=""
+            android:paddingLeft="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/colorWhite"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_date"
+            android:text=""
+            android:paddingLeft="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Humidity: "
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/colorWhite"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_hum"
+            android:text=""
+            android:textSize="20dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Pressure: "
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/colorWhite"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_pressure"
+            android:text=""
+            android:paddingLeft="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Max Temperature: "
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/colorWhite"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_temp_max"
+            android:text=""
+            android:textSize="20dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Min Temperature: "
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/colorWhite"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_temp_min"
+            android:text=""
+            android:textSize="20dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colorWhite"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
