@@ -61,7 +61,6 @@ public class WeatherFragment extends Fragment {
         findweather();
 
         return view;
-
     }
 
     public void findweather()
